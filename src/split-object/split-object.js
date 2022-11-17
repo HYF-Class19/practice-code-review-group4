@@ -18,7 +18,7 @@
  * // -> []
  */
 
-const splitObject = (toSeparate = {}) => {
+export const splitObject = (toSeparate = {}) => {
   if (typeof toSeparate !== 'object') {
     throw new TypeError();
   } else {
@@ -28,5 +28,3 @@ const splitObject = (toSeparate = {}) => {
     return result;
   }
 };
-
-module.exports = splitObject;

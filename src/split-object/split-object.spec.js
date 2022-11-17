@@ -1,4 +1,4 @@
-const splitObject = require('./split-object');
+import { splitObject } from './split-object.js';
 
 describe('Splits an object into multiple objects with one key/value pair each', () => {
   describe('Splits an object into multiple objects', () => {
