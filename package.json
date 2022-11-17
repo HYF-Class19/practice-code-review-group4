@@ -1,6 +1,9 @@
 {
   "name": "practice-code-review",
   "version": "1.0.0",
+  "jest": {
+    "verbose": true
+  },
   "scripts": {
     "format": "prettier --write ./",
     "format:check": "prettier --check ./",
