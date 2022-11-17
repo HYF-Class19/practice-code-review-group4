@@ -1,6 +1,8 @@
 {
   "language": "en",
-  "words": [],
+  "words": [
+    "sbor"
+  ],
   "ignorePaths": [
     "node_modules/**",
     "package.json",
