@@ -1,4 +1,5 @@
-import { sortNumbers } from './sort-numbers.js';
+//import { sortNumbers } from './sort-numbers.js';
+const sortNumbers = require('./sort-numbers');
 
 describe('sortNumbers sorts an array of numbers', () => {
   describe('sorts positive numbers', () => {
