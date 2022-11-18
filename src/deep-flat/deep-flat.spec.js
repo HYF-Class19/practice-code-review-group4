@@ -10,13 +10,13 @@ for (const solution of [deepFlat]) {
   });
   describe('Not an Array', () => {
     it('Input a number', () => {
-      expect(solution(2)).toEqual('please pass a valid array');
+      expect(() => solution(2)).toThrow(TypeError);
     });
     it('Input a string', () => {
-      expect(solution('Bibha')).toEqual('please pass a valid array');
+      expect(() => solution(2)).toThrow(TypeError);
     });
     it('Input an object', () => {
-      expect(solution({ a: 1, b: 2 })).toEqual('please pass a valid array');
+      expect(() => solution(2)).toThrow(TypeError);
     });
   });
   describe(' nested array', () => {
