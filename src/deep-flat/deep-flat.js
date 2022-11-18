@@ -17,9 +17,11 @@
  */
 
 export const deepFlat = (arr = []) => {
+  let result;
   if (Array.isArray(arr)) {
-    return arr.flat(Infinity);
+    result = arr.flat(Infinity);
   } else {
-    return 'please pass a valid array';
+    result = 'please pass a valid array';
   }
+  return result;
 };

@@ -1,5 +1,3 @@
-'use strict';
-
 import { deepFlat } from './deep-flat.js';
 
 // testcase to test deepFlat
