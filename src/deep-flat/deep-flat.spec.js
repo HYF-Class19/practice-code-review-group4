@@ -1,6 +1,6 @@
 import { deepFlat } from './deep-flat.js';
 
-// testcase to test deepFlat
+// test case to test deepFlat
 for (const solution of [deepFlat]) {
   // the main test suite for the function
   describe('Empty Array', () => {
