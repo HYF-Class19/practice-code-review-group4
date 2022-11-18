@@ -15,12 +15,11 @@
  * deepFlat(['a', ['b', [['c'], ['d']], 'e']]);
  * // -> ['a', 'b', 'c', 'd', 'e']
  */
- 
- export const deepFlat = (arr =[]) =>{
-    if (Array.isArray(arr)) {
-        return arr.flat(Infinity);
-        }
-        else {
-         return ('please pass a valid array');
-        }
-    }
+
+export const deepFlat = (arr = []) => {
+  if (Array.isArray(arr)) {
+    return arr.flat(Infinity);
+  } else {
+    return 'please pass a valid array';
+  }
+};
